@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Ui : MonoBehaviour
 {
-    public Text txt;
+    public TextMeshProUGUI txt_points;
     public float collectiblesCount;
     public Image healthImage;
     public PlayerHealth healthPlayer;
@@ -19,7 +19,7 @@ public class Ui : MonoBehaviour
     }
     private void Update()
     {
-        txt.text = "Agua Recolectada: " + collectiblesCount;
+        txt_points.text = "Agua Recolectada: " + collectiblesCount;
         healthImage.fillAmount = healthPlayer.health;
 
         if(collectiblesCount >= 5)
@@ -31,8 +31,5 @@ public class Ui : MonoBehaviour
         {
             SceneMAnager.Final();
         }
-
     }
-
-
 }

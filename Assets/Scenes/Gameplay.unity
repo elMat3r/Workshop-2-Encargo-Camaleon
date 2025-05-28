@@ -1441,7 +1441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ac43a2567a06f4088342de2bc0d0ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  txt_points: {fileID: 0}
+  txt_points: {fileID: 1916933179}
   collectiblesCount: 0
   healthImage: {fileID: 2042161518}
   healthPlayer: {fileID: 223097283}
@@ -1848,6 +1848,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 655599234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1916933179 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2856472227537920974, guid: 42d3a3952f3f05c448e25ab4e5ec7c31, type: 3}
+  m_PrefabInstance: {fileID: 6848674224398348595}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2042161516
 GameObject:
   m_ObjectHideFlags: 0

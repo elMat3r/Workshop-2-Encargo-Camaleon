@@ -7,15 +7,10 @@ public class PlayerHealth : MonoBehaviour
     public float health;
     public float maxHealth = 1;
     public Ui ui;
-
-
-    // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
     }
-
-    // Update is called once per frame
     public void HealthR()
     {
         health -= .34f;

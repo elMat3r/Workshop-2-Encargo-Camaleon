@@ -5,24 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneMAnager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
             
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Gameplay");
         }
     }
     public void Empezar()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Gameplay");
     }
     public void Final()
     {

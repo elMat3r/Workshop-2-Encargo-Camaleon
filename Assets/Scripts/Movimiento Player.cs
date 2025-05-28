@@ -10,7 +10,7 @@ public class MovimientoPlayer : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKey(KeyCode.D)) { body.AddForce(Vector2.right * speed); }
-        if (Input.GetKey(KeyCode.A)) { body.AddForce(-Vector2.right * speed); }
+        if (Input.GetKey(KeyCode.D)) { body.AddForce(Vector2.right * speed * Time.fixedDeltaTime); }
+        if (Input.GetKey(KeyCode.A)) { body.AddForce(-Vector2.right * speed * Time.fixedDeltaTime); }
     }
 }

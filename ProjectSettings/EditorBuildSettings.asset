@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FInal.unity
     guid: 7fa2ef9d2c2f64f4093bf63d7511f9b5
+  - enabled: 1
+    path: Assets/Scenes/FInal Malo.unity
+    guid: e219ba03cad7a154697ae4c8df48fa29
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

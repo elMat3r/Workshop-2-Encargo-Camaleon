@@ -11,7 +11,7 @@ public class Ui : MonoBehaviour
     public Image healthImage;
     public PlayerHealth healthPlayer;
     public Image waterImage;
-    public SceneMAnager SceneMAnager;
+    public SceneManager SceneMAnager;
 
     private void Start()
     {
@@ -30,6 +30,10 @@ public class Ui : MonoBehaviour
         if(waterImage.fillAmount >= 1)
         {
             SceneMAnager.Final();
+        }
+        if(healthImage.fillAmount <= 0)
+        {
+            SceneMAnager.FinalMalo();
         }
     }
 }

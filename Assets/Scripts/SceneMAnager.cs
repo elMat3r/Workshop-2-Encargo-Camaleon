@@ -3,26 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneMAnager : MonoBehaviour
+public class SceneManager : MonoBehaviour
 {
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            
-            SceneManager.LoadScene("Gameplay");
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Gameplay");
         }
     }
     public void Empezar()
     {
-        SceneManager.LoadScene("Gameplay");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Gameplay");
     }
     public void Final()
     {
-        SceneManager.LoadScene("Final");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Final");
     }
     public void VolverMenu()
     {
-        SceneManager.LoadScene("Inicio");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Inicio");
+    }
+    public void FinalMalo()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Final Malo");
     }
 }

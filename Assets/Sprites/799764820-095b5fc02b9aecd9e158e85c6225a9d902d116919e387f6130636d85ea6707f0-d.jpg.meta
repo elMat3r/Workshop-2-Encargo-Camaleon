@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 37eae171b475e4144888848452761e9d
+guid: 2118cd5a566035b44b7360b576f62469
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1005181495406153815
-    second: imagen-de-color-verde-agua_0
+      213: 7950021392963350516
+    second: 799764820-095b5fc02b9aecd9e158e85c6225a9d902d116919e387f6130636d85ea6707f0-d_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: imagen-de-color-verde-agua_0
+      name: 799764820-095b5fc02b9aecd9e158e85c6225a9d902d116919e387f6130636d85ea6707f0-d_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 626
-        height: 417
+        width: 1280
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9af258f61c0ec02f0800000000000000
-      internalID: -1005181495406153815
+      spriteID: 4ff265cf556245e60800000000000000
+      internalID: 7950021392963350516
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      imagen-de-color-verde-agua_0: -1005181495406153815
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

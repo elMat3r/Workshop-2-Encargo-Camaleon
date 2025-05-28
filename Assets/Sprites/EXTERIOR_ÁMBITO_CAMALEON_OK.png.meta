@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "EXTERIOR_\xC1MBITO_CAMALEON_OK_0": -7715328710489562444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

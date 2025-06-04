@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     }
     public void HealthR()
     {
-        health -= .34f;
+        health -= .25f;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

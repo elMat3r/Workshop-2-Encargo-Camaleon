@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Inicio.unity
     guid: 8f74dae4049500a4e9eb5592cd93b708
   - enabled: 1
-    path: Assets/Scenes/Gameplay.unity
+    path: Assets/Scenes/Nivel Lluvia.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/FInal.unity
@@ -17,5 +17,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FInal Malo.unity
     guid: e219ba03cad7a154697ae4c8df48fa29
+  - enabled: 1
+    path: Assets/Scenes/Nivel Rio.unity
+    guid: 4209435c415a238418ce7be0c9356796
+  - enabled: 1
+    path: Assets/Scenes/Nivel Evaporacion.unity
+    guid: 9febafb32de9bf04dba4f918e5b8f841
+  - enabled: 1
+    path: Assets/Scenes/Nivel 4 (No Decidido).unity
+    guid: 4f97b84fa0cf80846a1c370f37b0a48f
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

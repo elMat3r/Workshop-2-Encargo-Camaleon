@@ -11,7 +11,7 @@ public class Ui : MonoBehaviour
     public Image healthImage;
     public PlayerHealth healthPlayer;
     public Image waterImage;
-    public SceneManager SceneMAnager;
+    public ScreensManager SceneMAnager;
 
     private void Start()
     {

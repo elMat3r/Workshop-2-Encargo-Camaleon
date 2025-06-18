@@ -1,5 +1,7 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManagerSingleton : MonoBehaviour
 {
@@ -10,53 +12,50 @@ public class AudioManagerSingleton : MonoBehaviour
     [SerializeField] AudioSource effectsSource;
     int[] playlist;
     [SerializeField] AudioClip buttonsSound;
+    [SerializeField] AudioClip introMusic;
     [SerializeField] int currentSong;
-
+    string sceneName;
     private void Awake()
     {
         if(Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-
         }
         else
         {
             Destroy(gameObject);
         }
     }
-
-    private void Start()
+    private void OnEnable()
     {
-        musicSource.Play();
-        RandomPlaylist();
-        CheckNextSong();
+        SceneManager.activeSceneChanged += OnSceneChanged;
     }
-    private void Update()
+    private void OnDisable()
     {
-        if (!musicSource.isPlaying)
+        SceneManager.activeSceneChanged -= OnSceneChanged;
+    }
+    private void OnSceneChanged(Scene current, Scene next)
+    {
+        PlayMusic(next);
+    }
+    private void PlayMusic(Scene current)
+    {
+        Debug.Log($"{current.name} : build index {current.buildIndex}");
+        if (current.buildIndex == 0)
         {
-            CheckNextSong();
+            musicSource.clip = introMusic;
         }
+        else
+        {
+            RandomPlaylist();
+            musicSource.clip = musicClips[currentSong];
+        }
+        musicSource.Play();
     }
-
     public void RandomPlaylist()
     {
-        playlist = new int[musicClips.Length];
-        for(int i = 0; i < playlist.Length; i++)
-        {
-            playlist[i] = i;
-        }
-
-        for (int i = playlist.Length - 1; i > 0; i--)
-        {
-            int j = Random.Range(0, i + 1);
-            int temp = playlist[i];
-            playlist[i] = playlist[j];
-            playlist[j] = temp;
-        }
-
-        currentSong = 0;
+        currentSong = Random.Range(0, musicClips.Length-1);
     }
 
 
@@ -64,7 +63,7 @@ public class AudioManagerSingleton : MonoBehaviour
     {
         if (musicClips.Length == 0) return;
 
-        if(currentSong >= playlist.Length)
+        if (currentSong >= playlist.Length)
         {
             RandomPlaylist();
         }
@@ -74,17 +73,9 @@ public class AudioManagerSingleton : MonoBehaviour
         musicSource.Play();
         currentSong++;
     }
-
     public void ButtonsSound()
     {
         effectsSource.clip = buttonsSound;
         effectsSource.Play();
     }
-
-
-
-
-
-
-
 }

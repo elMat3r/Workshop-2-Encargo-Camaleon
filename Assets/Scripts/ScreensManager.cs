@@ -14,7 +14,7 @@ public class ScreensManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
 
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Gameplay");
+            SceneManager.LoadScene("Gameplay");
         }
     }
     public void Empezar()

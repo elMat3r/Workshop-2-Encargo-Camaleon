@@ -445,12 +445,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicClips:
-  - {fileID: 8300000, guid: c9c3f17dd51756c4ab5ad4e41bbb67a3, type: 3}
-  - {fileID: 8300000, guid: ce3afb8ef5f247b48963ae68b80c1d10, type: 3}
-  - {fileID: 8300000, guid: 62baefbe9bea575419c15a17f5ce7879, type: 3}
+  - {fileID: 8300000, guid: 5eac771c77178dd45bc4d0b4689cd8df, type: 3}
+  - {fileID: 8300000, guid: d4d0ae92d03989f4ca7ed040d9d991a1, type: 3}
+  - {fileID: 8300000, guid: 145dbba564935dd4fa5a43fdc61170ac, type: 3}
+  - {fileID: 8300000, guid: d8b7fa0e8dd45d04592582bff5eeee04, type: 3}
   musicSource: {fileID: 1764624021}
   effectsSource: {fileID: 413300751}
   buttonsSound: {fileID: 8300000, guid: 483441431d450b84f9d01e8035b488a9, type: 3}
+  introMusic: {fileID: 8300000, guid: f0210aa99dc29d84d9ac294fd6a71534, type: 3}
   currentSong: 0
 --- !u!4 &303791458
 Transform:
@@ -1790,6 +1792,7 @@ GameObject:
   - component: {fileID: 1820698187}
   - component: {fileID: 1820698186}
   - component: {fileID: 1820698189}
+  - component: {fileID: 1820698190}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -1928,8 +1931,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 303791457}
-          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        - m_Target: {fileID: 1820698190}
+          m_TargetAssemblyTypeName: Botones, Assembly-CSharp
           m_MethodName: ButtonsSound
           m_Mode: 1
           m_Arguments:
@@ -1940,6 +1943,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1820698190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820698184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2b330896f4e1841ada42adc76dbe7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1960097814
 GameObject:
   m_ObjectHideFlags: 0

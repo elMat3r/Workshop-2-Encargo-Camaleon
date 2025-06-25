@@ -1210,7 +1210,7 @@ GameObject:
   - component: {fileID: 801921636}
   - component: {fileID: 801921635}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Button_Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1233,7 +1233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 34, y: -27}
+  m_AnchoredPosition: {x: 25, y: -25}
   m_SizeDelta: {x: 185, y: 66}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &801921635
@@ -1258,8 +1258,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.9098039, b: 0.72156864, a: 1}
+    m_PressedColor: {r: 0.8, g: 0.52156866, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1874,7 +1874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5214055743606985306, guid: c027bbe55e7773240a1746a5f4dc4aa8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -12
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 5214055743606985306, guid: c027bbe55e7773240a1746a5f4dc4aa8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

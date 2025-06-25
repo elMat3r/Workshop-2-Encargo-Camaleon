@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 23.800049, y: -276}
-  m_SizeDelta: {x: 380, y: 161}
+  m_AnchoredPosition: {x: 50, y: -446}
+  m_SizeDelta: {x: 430, y: 150}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1403816204
 MonoBehaviour:
@@ -234,8 +234,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: fafb57e9cc0c62245a6bd4d42a895309, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -608,6 +608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1798b3f106c414e488415782812abb93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelNiveles: {fileID: 0}
+  botonEmpezar: {fileID: 0}
 --- !u!1001 &1632812645673801458
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,11 +8,13 @@ public class Solcitos : MonoBehaviour
     int limitSpd;
     public Termometro termometro;
     public GameObject vapor;
+    SpawnNubes spawnNubes;
 
 
 
     private void Start()
     {
+        spawnNubes = FindAnyObjectByType<SpawnNubes>();
         termometro = FindAnyObjectByType<Termometro>();
         rb = GetComponent<Rigidbody2D>();
         limitSpd = Random.Range(-4, -10);
@@ -25,11 +27,7 @@ public class Solcitos : MonoBehaviour
 
     private void Update()
     {
-        //if (rb.linearVelocityX >= limitSpd )
-        //{
-        //    rb.AddForce(new Vector2(-1f, 0f) * spd, ForceMode2D.Impulse);
 
-        //}
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -40,9 +38,11 @@ public class Solcitos : MonoBehaviour
         } 
         if(collision.collider.tag == "Agua")
         {
-            Destroy(gameObject);
             termometro.TempTermometro();
             Instantiate(vapor);
+            spawnNubes.nubeRate++;
+            Destroy(gameObject);
+
         }
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Rayo
   - Rebote
   - Suelo
+  - Piedras
+  - Meta
   layers:
   - Default
   - TransparentFX

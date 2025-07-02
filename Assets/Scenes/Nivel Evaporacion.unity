@@ -1222,6 +1222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelNiveles: {fileID: 0}
   botonEmpezar: {fileID: 0}
+  siguenteNivel: 
 --- !u!114 &875655020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,14 +1834,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8037735, g: 0.7992239, b: 0.7992239, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3351902016752357905, guid: 05dae40a9e9962e49ab4df4b5ab411ff, type: 3}
+  m_Sprite: {fileID: 2645394268716564610, guid: 1ca16d43b65626a45b1937396f6c8330, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2657,23 +2658,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2760782341364901006, guid: 9d284247c4740c74cb0f59ce59dbcf86, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2760782341364901006, guid: 9d284247c4740c74cb0f59ce59dbcf86, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2760782341364901006, guid: 9d284247c4740c74cb0f59ce59dbcf86, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2760782341364901006, guid: 9d284247c4740c74cb0f59ce59dbcf86, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.14
+      value: 8.72
       objectReference: {fileID: 0}
     - target: {fileID: 2760782341364901006, guid: 9d284247c4740c74cb0f59ce59dbcf86, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.13
+      value: -0.83
       objectReference: {fileID: 0}
     - target: {fileID: 2760782341364901006, guid: 9d284247c4740c74cb0f59ce59dbcf86, type: 3}
       propertyPath: m_LocalPosition.z

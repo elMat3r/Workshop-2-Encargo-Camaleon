@@ -1662,14 +1662,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8415094, g: 0.8415094, b: 0.8415094, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7715328710489562444, guid: 18d9cae3185d23348bc92668079e4a95, type: 3}
+  m_Sprite: {fileID: -6221518998264454606, guid: bda435fdfce79ff40871823c65d8f23f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2527,6 +2527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelNiveles: {fileID: 0}
   botonEmpezar: {fileID: 0}
+  siguenteNivel: 
 --- !u!1 &1118395490
 GameObject:
   m_ObjectHideFlags: 0

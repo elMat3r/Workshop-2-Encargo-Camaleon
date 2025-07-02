@@ -9,6 +9,7 @@ public class ScreensManager : MonoBehaviour
 {
     public GameObject panelNiveles;
     public GameObject botonEmpezar;
+    public string siguenteNivel;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
@@ -45,21 +46,21 @@ public class ScreensManager : MonoBehaviour
     }
     public void NivelLluvia()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel Lluvia");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("TransLluvia");
         panelNiveles.SetActive(true);
         botonEmpezar.SetActive(false);
 
     }
     public void NivelEvaporacion()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel Evaporacion");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("TransEva");
         panelNiveles.SetActive(true);
         botonEmpezar.SetActive(false);
 
     }
     public void NivelRio()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel Rio");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("TransRio");
         panelNiveles.SetActive(true);
         botonEmpezar.SetActive(false);
 
@@ -70,6 +71,11 @@ public class ScreensManager : MonoBehaviour
         panelNiveles.SetActive(true);
         botonEmpezar.SetActive(false);
 
+    }
+
+    public void SiguienteNivel()
+    {
+        SceneManager.LoadScene(siguenteNivel);
     }
     
 }

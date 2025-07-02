@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_Lluvia3_0: -4753990982853959265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

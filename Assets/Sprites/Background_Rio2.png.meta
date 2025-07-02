@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_Rio2_0: 5274978587510838100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

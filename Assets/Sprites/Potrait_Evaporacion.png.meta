@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Potrait_Evaporacion_0: 8460945805644975866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

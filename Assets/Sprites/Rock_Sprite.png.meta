@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 98e81a4dc1ba885488acd09d8b9c7bf0
+guid: b7918a623642dae4db6de8251e5dd339
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2500970239214480385
-    second: istockphoto-861263476-612x612_0
+      213: -562939886132074936
+    second: "\u2014Pngtree\u2014block rock clip art_5830703_0"
+  - first:
+      213: 9036745831669638418
+    second: "\u2014Pngtree\u2014block rock clip art_5830703_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 900
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: istockphoto-861263476-612x612_0
+      name: "\u2014Pngtree\u2014block rock clip art_5830703_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 612
-        height: 382
+        x: 76
+        y: 147
+        width: 1055
+        height: 891
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10ce33e8e2b35b220800000000000000
-      internalID: 2500970239214480385
+      spriteID: 846e239f7290038f0800000000000000
+      internalID: -562939886132074936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014block rock clip art_5830703_1"
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 695
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21529268478f86d70800000000000000
+      internalID: 9036745831669638418
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      istockphoto-861263476-612x612_0: 2500970239214480385
+      "\u2014Pngtree\u2014block rock clip art_5830703_0": -562939886132074936
+      "\u2014Pngtree\u2014block rock clip art_5830703_1": 9036745831669638418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -22,7 +22,7 @@ public class Ui : MonoBehaviour
         txt_points.text = "Agua Recolectada: " + collectiblesCount;
         healthImage.fillAmount = healthPlayer.health;
 
-        if(collectiblesCount >= 5)
+        if(collectiblesCount >= 2)
         {
             waterImage.fillAmount += .20f;
             collectiblesCount = 0;

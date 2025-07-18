@@ -19,7 +19,7 @@ public class Solcitos : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         limitSpd = Random.Range(-4, -10);
         rb.gravityScale = Random.Range(.3f, .5f);
-        spd = Random.Range(2, 4);
+        spd = Random.Range(2, 6);
         rb.AddForce(Vector2.left * spd, ForceMode2D.Impulse);
     }
 
